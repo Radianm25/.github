@@ -1,5 +1,13 @@
 const fs = require('fs')
 const chalk = require('chalk')
+require('./lib/system/config')
+global.zApiKey = [// if this API key get expired then please go to https://www.fxacb-api.my.id and get a new api key.
+       'zenzkey_998568986d'
+]
+global.lApiKey = [ // if this API key get expired then please go to https://api.lannn.me and get a new api key.
+       'uMSPCuLU',
+       'IOGaHu5S'
+]
 
 
 global.botname = "MeackeyRadians" 
